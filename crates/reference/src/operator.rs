@@ -1,3 +1,4 @@
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum Operator {
   Plus,
   Minus,
@@ -5,4 +6,6 @@ pub enum Operator {
   Divide,
   Modulus,
   Power,
+  Assign,
+  Equal,
 }

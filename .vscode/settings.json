@@ -4,4 +4,7 @@
     "--config",
     "tab_spaces=2"
   ],
+  "cSpell.words": [
+    "thiserror"
+  ],
 }

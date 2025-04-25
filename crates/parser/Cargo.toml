@@ -1,10 +1,10 @@
 [package]
-name = "lexer"
+name = "parser"
 version.workspace = true
 edition.workspace = true
 description.workspace = true
 
 [dependencies]
-reference = { path = "../reference" }
+lexer = { path = "../lexer" }
 utils = { path = "../utils" }
 thiserror = { workspace = true }

@@ -1,3 +1,4 @@
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum Keyword {
   Else,
   If,
@@ -11,4 +12,10 @@ pub enum Keyword {
   Break,
   Continue,
   Match,
+  Fn,
+  Use,
+  In,
+  And,
+  Or,
+  Not,
 }
